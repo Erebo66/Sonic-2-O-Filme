@@ -7,7 +7,7 @@
 }
 body{
     color: aliceblue;
-    padding: 10PX;
+    padding: 15PX;
 }
 .conteudo{
     display: flex;
@@ -21,10 +21,24 @@ body{
     padding: 5px;
     margin-left: 40px;
 }
+.logotyp{
+    width: 1300px;
+    text-align: center;
+}
 .sinopse{
 display: flex;
 font-size: 20px;
+display: block;
+flex-direction: column-reverse;
+width: 800px;
+margin-left: 200px;
 }
+.personagens{
+    height: 600px;
+    width: auto;
+}
+
+
 .cards{
     padding: 5px;
 }
