@@ -3,13 +3,13 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 70%;
     height: 10vh;
  }
  
  header{
      display: flex;
-     column-gap: 64px;
+     column-gap: 10px;
      width: 80%;
      max-width: 1440px;
      padding-top: 24px;
@@ -25,7 +25,7 @@
  }
  .nav{
      display: flex;
-     column-gap: 40px;
+     column-gap: 20px;
      list-style: none;
  }
   
@@ -68,6 +68,7 @@
      align-items: center;
      column-gap: 24px;
      list-style: none;
+     column-gap: 10px;
   }
  
  .nav_social a{
@@ -82,6 +83,11 @@
      height: 40px;
   }
   .nav_social a:hover{
-     opacity: 1;
-     cursor: pointer;
+    margin-top: 50px;
+    opacity: 1;
+    cursor: pointer;
+    border:  16px solid white;
+    background: white;
+    width: 1px;
+    border-radius: 200%;
    }
