@@ -31,7 +31,7 @@ font-size: 20px;
 display: block;
 flex-direction: column-reverse;
 width: 800px;
-margin-left: 200px;
+margin-left: 10%;
 }
 .personagens{
     height: 600px;
@@ -41,11 +41,35 @@ margin-left: 200px;
 
 .cards{
     padding: 5px;
+    display: inline-flex;
+    gap: 20px;
+    margin-left: 15%;
+    cursor: pointer;
 }
 .card{
-    border: 2px solid whitesmoke;
-    padding: 5px;
-    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    max-height: 120px;
+    width: 195px;
+    background: #0d0da391;
+    color: rgba(240, 248, 255, 0.555);
+    transition: 0.5s;
+    overflow: hidden;
+    margin-top: 50px;
+    scrollbar-width: 100px;    
+}
+.card:hover{
+    max-height: 905px;
+    color: rgb(226, 241, 15);
+    display: inline-block
+}
+
+.text p::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
 }
 .titol{
     text-align: center;
